@@ -1,0 +1,44 @@
+
+
+
+
+.card {
+  width: 200px;
+  padding: 16px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  font-family: sans-serif;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+}
+
+button {
+  padding: 8px 14px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #005fcc;
+}
+
+
+.container {
+  max-width: 360px;          /* adjust: 320–420px for typical card size */
+  margin: 40px auto;         /* centers the card horizontally */
+  padding: 0 16px;           /* small side padding so it doesn't hug the edges */
+  display: block;            /* or use flex for centering if needed */
+}

@@ -1,0 +1,7 @@
+encryptionsalt: v1:QFJ43lkejOM=:v1:ppSvvTVklbQbQAMO:umziRohDluNsj234Tqw1Xchp4WPtFg==
+config:
+  aws:region: eu-north-1
+  funny-app-dev:resourceOwner: yohansdemisie@gmail.com
+  funny-app-dev:appName: funny-app
+  funny-app-dev:env: dev
+

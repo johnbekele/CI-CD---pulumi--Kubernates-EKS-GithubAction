@@ -1,0 +1,28 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: funny-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: my-app-pod
+  template:
+    metadata:
+      labels:              
+        app: my-app-pod     
+    spec:
+      containers:
+        - name: fun-app-container
+          image: funny-frontend:0.1
+          ports:
+            - containerPort: 80
+          volumeMounts:
+          - name: config-volume
+            mountPath: /etc/config
+      volumes: 
+        - name: config-volume
+          configMap:
+            name: funny-config 
+
