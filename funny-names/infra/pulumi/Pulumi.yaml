@@ -9,6 +9,4 @@ config:
   pulumi:tags:
     value:
       pulumi:template: aws-python
-  funny-app-dev:resourceOwner: yohansdemisie@gmail.com
-  funny-app-dev:appName: funny-app
-  funny-app-dev:env: dev
+  

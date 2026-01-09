@@ -26,7 +26,7 @@ tags={
 #=============================================================================
 # network component
 #=============================================================================
-vpc=Network(app_name,env)
+vpc=Network(app_name,env,tags)
 public_subnets=vpc.public_subnets
 private_subnets=vpc.private_subnets
 
